@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700|Roboto');
+
+.logo{
+    width: 134px;
+    
+}
+
+.black{
+    background: #000;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 0px 60px;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.gradient{
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top, #000000 0%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #000000 0%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #000000 0%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar{
+    position: relative;
+    background: #000;
+    border-bottom: 1px solid #FFF;
+    padding: 10px 0px;
+    height: 59px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nb-transparent{
+    background: transparent;
+    position: absolute;
+}
+
+.navbar-links{
+    float: right;
+}
+
+.navbar-links li{
+    float: left;
+    margin-left: 30px;
+    line-height: 59px;
+}
+
+.navbar-links a{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar-links li a:hover{
+    color: #C5C5C5;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    margin-left: -30px;
+    background-color: #000;
+    z-index: 1200;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown .dropdown-menu li a{
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+.dropdown-menu li a:hover{
+    color: #C5C5C5;
+}
+
+.in-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.align-Y{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.responsive{
+    height: 100vh;
+}
+
+.responsive img{
+    min-height: 100%;
+    object-fit: cover; 
+}
+
+.slider-content{
+    text-align: center;
+}
+
+h1, .slider-content h2{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+
+
+.decoracion{
+    height: 2px;
+    width: 100px;
+    background: #FFF;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+
+.slider-content .decoracion{
+    margin-top: 8px;
+    margin-bottom: 21px
+}
+
+.slider-content p{
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.btn-clear{
+    padding: 15px 30px;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    transition: all ease 0.5s;
+}
+
+.btn-clear:hover{
+    background: #FFF;
+    color: #000;
+    transition: all ease 0.5s;
+}
+
+section.about{
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.subtitulo35{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.subtitulo21{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.about .parrafo{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.about p{
+    margin-bottom: 1.6em;
+}
+
+section.servicios{
+    padding: 4em 0em;
+}
+
+.servicios h3{
+    text-align: center;
+}
+
+.parrafo15{
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.servicios .parrafo15{
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+}
+
+.servicios-content{
+    float: left;
+    width: 32%;
+}
+
+.secondrow-margin{
+    margin: 0% 2%;
+}
+
+.servicios-content img{
+    width: 100%;
+    max-width: 40px;
+}
+
+.servicios-content .col1{
+    float: left;
+    width: 10%;
+}
+
+.servicios-content .col2{
+    float: right;
+    width: 90%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.footer{
+    border-top: 1px solid #FFF;
+    height: 65px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.social_media img{
+    max-width: 21px;
+}
+
+.footer p{
+    float: left;
+}
+
+.footer .navbar-links li, .footer p{
+    line-height: 65px;
+}
+
+.proceso .img-fullwidth, .proceso-info{
+    width: 50%;
+    float: left;
+    max-height: 600px;
+}
+
+.img-fullwidth img{
+    width: 100%;
+}
+
+.proceso-info{
+    padding-top: 120px;
+}
+
+.proceso-info .container a{
+    animation-delay: 0.5s;
+}
+
+.proceso-info p{
+    margin-bottom: 1em;
+}
+
+.contactanos{
+    text-align: center;
+    background: #131313;
+}
+
+.contactanos, .seccion-focus{
+    padding: 4em 0;
+}
+
+.seccion-focus{
+    font-weight: 500;
+    font-size: 18px;
+    background: #131313;
+}
+
+.btn-contactanos{
+    font-size: 1em;
+    padding: 1em 2em;
+    color: #FFF;
+    text-decoration: none;
+    border: solid 1px #fff;
+    transition: all ease 0.5s;
+}
+
+.btn-contactanos:hover{
+    background: #FFF;
+    color: #000;
+    transition: all ease 0.5s;
+}
+
+.proceso-info .parrafo15{
+    margin-bottom: 3em;
+}
+
+header{
+    height: 40vh;
+    position: relative;
+    text-align: center;
+}
+
+.servicio-header{
+    background: url(../images/slide1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.marketing-header{
+    background: url(../images/slide2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    width: 100%;
+}
+
+#mini-titulo{
+    font-size: 1em;
+}
+
+.idiomas-content, .idiomas-content2 div{
+    float: left;
+    width: 33.33%;
+    height: 500px;
+}
+
+
+.idiomas-content2 img{
+    object-fit: cover;
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.idiomas-content .container{
+    margin-top: 70px;
+}
+
+.idiomas .subtitulo35{
+    width: 100%;
+}
+
+.idiomas-content .container ul{
+    float: left;
+    margin-right: 2.4em;
+    margin-bottom: 1.2em;
+}
+
+section.marketing-contenido .servicios-content{
+    padding: 4em 0em;
+    width: 33.33%;
+}
+
+.darkgrey{
+    background: #131313;
+}
+
+.contacto-contenido{
+    padding: 4em 0em;
+}
+
+.informacionContacto, .formulario{
+    float: left;
+    width: 50%;
+}
+
+/*ANIMATIONS*/
+
+.animatable {
+  
+    visibility: hidden;
+    
+    animation-play-state: paused; 
+  }
+  
+.animated {
+    visibility: visible;
+    
+    animation-fill-mode: both;
+    
+    animation-duration: 1.5s;
+  
+    animation-play-state: running;
+  }
+
+  
+.anim-slidein{
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from{
+        top: 100%;
+        opacity: 0;
+    }
+
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+.anim-slideleft{
+    animation-name: slideleft;
+}
+
+@keyframes slideleft{
+    from{
+        margin-left: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+
+

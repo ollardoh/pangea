@@ -56,11 +56,11 @@
 
 .navbar-links li{
     float: left;
-    margin-left: 30px;
+    margin-left: 1.6em;
     line-height: 59px;
 }
 
-.navbar-links a{
+.navbar-links a, .datosCol2 a{
     color: #FFF;
     font-size: 14px;
     font-weight: 500;
@@ -241,7 +241,7 @@ section.servicios{
     font-size: 14px;
 }
 
-.social_media img{
+.social_media img, .contacto-contenido li img{
     max-width: 21px;
 }
 
@@ -327,6 +327,12 @@ header{
     background-position: center;
 }
 
+.contacto-header{
+    background: url(../images/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 h1{
     width: 100%;
 }
@@ -378,6 +384,63 @@ section.marketing-contenido .servicios-content{
 .informacionContacto, .formulario{
     float: left;
     width: 50%;
+}
+
+form input, form textarea{
+    background: transparent;
+    border: 1px #FFF;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+form input:focus, form textarea:focus{
+    background-color: #FFF;
+}
+
+form input[type="submit"]{
+    cursor: pointer;
+    background: transparent;
+}
+
+form input:not([type="submit"]), form textarea{
+    margin-top: 0.2em;
+    margin-bottom: 2em;
+    width: 60%;
+}
+
+form input:not([type="submit"]){
+    padding: 0em 0.2em;
+    height: 1.8em;
+}
+
+.contacto-contenido .montserrat.subtitulo35{
+    margin-bottom: 1em;
+}
+
+.datosCol1 p.parrafo15, .datosCol2 p.parrafo15{
+    margin-top: 0.5em;
+    margin-bottom: 1.6em;
+}
+
+.datosCol1, .contacto-contenido ul li{
+    float: left;
+}
+
+.datosCol1{
+    width: 50%;
+}
+
+.datosCol2 a:hover{
+    text-decoration: underline;
+}
+
+.contacto-contenido li:first-child{
+    margin-right: 1.4em;
+}
+
+.mobileOnly{
+    display: none;
 }
 
 /*ANIMATIONS*/

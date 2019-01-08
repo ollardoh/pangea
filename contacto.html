@@ -31,7 +31,7 @@
     </div>
   </nav>
 
-  <header class="gradient">
+  <header class="contacto-header">
     <h1 class="montserrat align-Y subtitulo35 animatable anim-slidein">Contanos sobre tu proyecto</h1>
   </header>
 
@@ -43,17 +43,34 @@
           <p class="montserrat subtitulo21">Localidad:</p>
           <p class="roboto parrafo15">C.A.B.A., Argentina</p>
           <ul>
-            <li class="social_media"><a href="https://www.facebook.com/pangea.comunicacion" target="_blank"><img src="images/iconos/facebook.png" alt="Link a nuestro Facebook"></a></li>
-            <li class="social_media"><a href="https://www.instagram.com/pangeacomunicacion" target="_blank"><img src="images/iconos/instagram.png" alt="Link a nuestro Instagram"></a></li>
+            <li><a href="https://www.facebook.com/pangea.comunicacion" target="_blank"><img src="images/iconos/facebook.png" alt="Link a nuestro Facebook"></a></li>
+            <li><a href="https://www.instagram.com/pangeacomunicacion" target="_blank"><img src="images/iconos/instagram.png" alt="Link a nuestro Instagram"></a></li>
           </ul>
+        </div>
+        <div class="datosCol2">
+          <p class="montserrat subtitulo21">Teléfono/E-mail</p>
+          <p class="roboto parrafo15">Teléfono: (011) 15 3110-7987</p>
+          <a class="roboto parrafo15 mobileOnly" href="tel:+5491131107987">Teléfono: (011) 15 3110-7987</a>
+          <a class="roboto parrafo15" href="mailto:info@pangeacomudigital.com">info@pangeacomudigital.com</a>
         </div>
     </div>
     
     <div class="formulario">
-     
       <h3 class="montserrat subtitulo35">Completa el formulario <br> y generemos algo juntos.</h3>
+      <form method="POST" action="cont.php">
+          <label class="roboto parrafo15" for="nombre">Nombre Completo</label><br>
+          <input type="text" name="nombre" id="nombre"><br>
+
+          <label class="roboto parrafo15" for="email">E-Mail</label><br>
+          <input type="email" name="email" id="email"><br>
+
+          <label class="roboto parrafo15" for="mensaje">Mensaje</label><br>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+
+          <input class="roboto parrafo15 btn-contactanos" type="submit" value="Enviar consulta">
+          
+        </form>
     </div>
-    
   </div>
   <div class="clearfix"></div>
   </section>
